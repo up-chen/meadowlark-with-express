@@ -9,7 +9,18 @@
   "author": "sin",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect": "^3.6.2",
+    "cookie-parser": "^1.4.3",
     "express": "^4.15.3",
-    "express3-handlebars": "^0.5.2"
+    "express-session": "^1.15.3",
+    "express3-handlebars": "^0.5.2",
+    "formidable": "^1.1.1",
+    "nodemailer": "^4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2",
+    "zombie": "^5.0.5"
   }
 }
